@@ -1,13 +1,9 @@
-###################
-What is fitCMS
-###################
+### What is fitCMS
 
 fitCMS is an open source cms project based on CodeIgniter Framework.
 You can install this cms fast even on cheap hosting.
 
-*******************
-Installation
-*******************
+### Installation
 
 1. Clone git repository
 ```sh
@@ -26,9 +22,7 @@ composer install
 php index.php migrate allModules
 ```
 
-*******************
-Server Requirements
-*******************
+### Server Requirements
 
 PHP version 5.4 or newer is recommended.
 
@@ -36,9 +30,7 @@ It should work on 5.2.4 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
-*******
-Fixtures
-*******
+### Fixtures
 
 Fixtures are the packets of sample data for database tables.
 
@@ -50,6 +42,7 @@ php index.php fixtures load
 - How to create new fixture:
 1. Create new php class in application/fixtures (Fixture suffix recommend)
 Example:
+
 ```php
 // application/fixtures/PagesFixture.php
 <?php
@@ -95,8 +88,6 @@ class PagesFixture implements FixturesInterface
 }
 ```
 
-*******
-License
-*******
+### License
 
 The MIT License (MIT)
