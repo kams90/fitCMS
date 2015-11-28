@@ -5,19 +5,19 @@ You can install this cms fast even on cheap hosting.
 
 ### Installation
 
-1. Clone git repository
+- Clone git repository
 ```sh
 git clone git@github.com:xprezesx/fitCMS.git
 ```
 
-2. Install dependencies using composer
+- Install dependencies using composer
 ```sh
 composer install
 ```
 
-3. Create database
+- Create database
 
-4. Run migrations
+- Run migrations
 ```sh
 php index.php migrate allModules
 ```
@@ -67,7 +67,7 @@ class PagesFixture implements FixturesInterface
         $CI->load->config('admin');
         $CI->load->helper('admin');
 
-        // Recommend using Faker library ([`How to use faker`](https://github.com/fzaninotto/Faker))
+        // Recommend using Faker library (https://github.com/fzaninotto/Faker)
         $faker = Faker\Factory::create();
 
         // all logic here (load model and insert data into database in loop)
