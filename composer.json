@@ -1,0 +1,11 @@
+{
+	"description" : "nuCMS - revolution CMS",
+	"name" : "nuCMS",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.4",
+		"fzaninotto/faker": "^1.5"
+	},
+	"require-dev": {
+	}
+}
